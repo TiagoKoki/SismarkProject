@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Exames</title>
+
+	<link rel="stylesheet" type="text/css" href="../bootstrap-4.1.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+</head>
+
+<body>
+
+	<input type="checkbox" id="bt_menu">
+	<label for="bt_menu">&#9776;</label>
+	<nav class="menu">
+		<ul>
+		    <li><a class="logo" href="#">SISMARK</a></li>
+		        
+		    <li><a href="#">Paciente</a>
+		       	<ul>
+		        	<li><a href="#">Cadastrar</a></li>
+		        	<li><a href="#">Consultar</a></li>
+		        </ul>
+
+		    </li>
+		        
+		    <li><a href="#">Exames</a>
+		       	<ul>
+		       		<li><a href="#">Marcar</a></li>
+		       		<li><a href="#">Consultar</a></li>
+		       	</ul>
+		    </li>
+		    	
+		    <li><a href="#">Transporte</a>
+		       	<ul>
+		       		<li><a href="#">Marcar</a></li>
+		       		<li><a href="#">Consultar</a></li>
+		       	</ul>
+		    </li>
+		    
+		    <li><a href="#">Relatórios</a>
+		       	<ul>
+		       		<li><a href="#">Exames</a></li>
+		       		<li><a href="#">Transporte</a></li>
+		       	</ul>
+		    </li>
+		</ul>
+	</nav>
+
+	<div class="exame">
+		<form class="form-group">
+			<fieldset>
+			<legend>Formulario de Marcação de exames:</legend>
+			<div class="form-row">
+				<div class="form-group col-md-9">
+					<label>Nome do Completo:</label>
+					<input class="form-control" type="text" name="nome">
+					
+				</div>
+			</div>
+			<div class="form-row">	
+				<div class="form-group col-md-3"> 
+						<label>Data de Nascimento:</label>
+						<input class="form-control" type="date" name="data">
+				</div>
+				<div class="form-group col-md-3">
+					<label>Cartão do SUS:</label>
+					<input class="form-control" type="text" name="cartaosus">
+				</div>
+				<div class="form-group col-md-3">
+					<label>Telefone:</label>
+					<input class="form-control" type="tel" name="telefone">
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="form-group col-md-3">
+					<label>Exame:</label>
+					<input class="form-control" type="select" name="exame">
+				</div>
+				<div class="form-group col-md-3">
+					<label>Laboratorio:</label>
+					<input class="form-control" type="select" name="laboratorio">
+				</div>
+				<div class="form-group col-md-3">
+					<label>Data do Exame:</label>
+					<input class="form-control" type="date" name="dataExame">
+				</div>	
+			</div>	
+
+		</fieldset>
+		
+		</form>
+
+
+		
+	</div>
+
+	
+</body>
+</html>
